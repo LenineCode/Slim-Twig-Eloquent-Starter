@@ -1,0 +1,7 @@
+driver=mysql
+host=YOUR_DB_HOST
+username=YOUR_DB_USERNAME
+password=YOUR_DB_PASSWIRD
+database=YOUR_DB_DATABASE
+charset=utf8
+collation=utf8_unicode_ci
