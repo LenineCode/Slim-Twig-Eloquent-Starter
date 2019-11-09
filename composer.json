@@ -1,7 +1,7 @@
 {
     "name": "template/php",
     "require": {
-        "slim/slim": "^4.3",
+        "slim/slim": "^3.12",
         "illuminate/database": "^6.5",
         "slim/twig-view": "^2.5"
     }
