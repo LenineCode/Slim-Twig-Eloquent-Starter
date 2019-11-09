@@ -9,7 +9,7 @@ define("HOSTNAME", (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "ht
 
 return [
     'view' => function ($c) {
-        $view = new Twig('src/vues');
+        $view = new Twig('src/views');
 
         // Instantiate and add Slim specific extension
         $router = $c->get('router');
